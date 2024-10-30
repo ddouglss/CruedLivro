@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center my-5">
+    <h1 class="display-4 mb-3">BookShare Online</h1>
+    <p class="lead mb-4">Abra um livro, deixe-se levar. Um novo mundo você vai encontrar!</p>
+    <div>
+        <a class="nav-link d-inline-block" asp-area="" asp-controller="Emprestimo" asp-action="Index">
+            <img src="/img/book.png" class="img-fluid" alt="Icone de livro" style="max-width: 300px;" />
+        </a>
+    </div>
+</div>
+
+<div class="container text-center my-5">
+    <h2 class="mb-4">Dicas de Boas Maneiras para Empréstimo de Livros</h2>
+    <p class="mb-4">Compartilhe e aprenda boas práticas para o empréstimo de livros. Aqui estão algumas dicas essenciais:</p>
+
+    <div class="card p-4 mx-auto" style="max-width: 600px; background-color: #f8f9fa;">
+        <ul class="list-unstyled text-start">
+            <li class="mb-3">
+                <h3>Como cuidar de um livro emprestado</h3>
+                <p class="text-muted">Trate o livro com cuidado, evitando marcas de dobra nas páginas e mantendo-o longe de alimentos e bebidas. Se possível, utilize um marcador de páginas ao invés de dobrar as folhas.</p>
+            </li>
+            <li class="mb-3">
+                <h3>A importância de devolver os livros no prazo</h3>
+                <p class="text-muted">Devolver os livros dentro do prazo combinado é fundamental para manter a confiança e a colaboração entre os leitores. Se precisar de mais tempo, comunique-se com o fornecedor para discutir a possibilidade de prorrogação.</p>
+            </li>
+            <li class="mb-3">
+                <h3>Dicas para manter uma boa comunicação com o fornecedor/recebedor</h3>
+                <p class="text-muted">Seja claro e respeitoso ao se comunicar. Informe sobre qualquer problema que possa surgir com o livro e mantenha um registro das datas de empréstimo e devolução para evitar mal-entendidos.</p>
+            </li>
+        </ul>
+        <p class="mt-4 text-secondary">Seguindo essas dicas, você contribuirá para uma experiência positiva de empréstimo de livros!</p>
+    </div>
+</div>
